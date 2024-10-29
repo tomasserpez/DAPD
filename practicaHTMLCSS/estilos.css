@@ -1,0 +1,112 @@
+
+*{
+    background: green;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+time[datetime]{
+    background: red;
+    color: #999;
+}
+header {
+    background: black;
+    color: white;
+}
+footer{
+    background: green;
+}
+#cabecera{
+    background: red;
+    color: white;
+}
+.clasecabecera{
+    background: silver;
+    color: slateblue;
+}
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+header, section, footer, aside, nav, article, hgroup {
+    /*border:1px solid black;*/
+    display: block;
+}
+.agrupar{
+    background: grey;
+    width: 960px;
+    border: 1px solid black;
+    margin: 15px auto;
+}
+#cabecera{
+    background: #fffbb9;
+    border: 1px solid #999999;
+    padding: 20px;
+    text-align: left;
+}
+
+.menu {
+    background: #ccc;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu, li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.seccion{
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+
+.columna{
+    margin: 20px;
+    float: left;
+    width: 30%;
+}
+
+.columna blockquote{
+    border: 1px solid black;
+    padding: 40px;
+    background: #fffbb9;
+    margin-bottom: 20px;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+    color: white;
+    background: #2d3436;
+}
+
+article{
+    background: #fffbcc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+img {
+    width: 180px;
+    display: block;
+    margin: 20px auto;
+}

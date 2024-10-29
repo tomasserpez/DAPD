@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-      <meta charset="UTF-8">
-      <title>Primera página</title>
+    <meta charset="UTF-8">
+    <title>Primera página</title>
     <meta name="description" content="Esta es mi primera página web"/>
     <meta name="author" content="Tomás Serpez"/>
+    <link rel="stylesheet" href="estilos.css">
   </head>
   <body>
-<!--  Header    -->
-    <header>
-      <h1>Mi Blog</h1>
-    </header>
+    <div class="agrupar">
+      <!--  Header    -->
+      <header id="cabecera">
+        <h1>Mi Blog</h1>
+      </header>
 
-<!--    Navbar    -->
-    <nav>
-      <ul>
-        <li>Principal</li>
-        <li>Ayuda</li>
-        <li>Contacto<li>
-      </ul>
-    </nav>
+      <!--    Navbar    -->
+      <nav class="menu">
+        <ul>
+          <li>Principal</li>
+          <li>Ayuda</li>
+          <li>Contacto<li>
+        </ul>
+      </nav>
 
-  <p>Mi primer párrafo de HTML</p>
+      <p>Mi primer párrafo de HTML</p>
 
-<!--  Articulos   -->
-    <section>
-      <article>
-              <hgroup>
-                  <h1>Título del Primer Artículo</h1>
-                  <h2>Subtítulo del Primer Artículo</h2>
-              </hgroup>
-            <time datetime="29-08-2024">Publicado el 29-08-2024</time>
+      <!--  Articulos   -->
+      <section class="seccion">
+        <article class="clasecabecera">
+          <hgroup>
+            <h1>Título del Primer Artículo</h1>
+            <h2>Subtítulo del Primer Artículo</h2>
+          </hgroup>
+          <time datetime="29-08-2024">Publicado el 29-08-2024</time>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aspernatur at corporis dolores doloribus esse explicabo harum hic ipsum labore molestiae, necessitatibus nobis omnis recusandae tempora vitae voluptate. Doloremque?</p>
 
             <img src="https://ih1.redbubble.net/image.3695659723.9955/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="">
             <footer>
-                <p>Comentarios (0)</p>
+              <p>Comentarios (0)</p>
             </footer>
             <a href="http://google.com.ar">Ir al Buscador</a>
-      </article>
-      <article>
+        </article>
+        <article class="clasecabecera">
           <hgroup>
-              <h1>Título del Segundo Artículo</h1>
-              <h2>Subtítulo del Segundo  Artículo</h2>
+            <h1>Título del Segundo Artículo</h1>
+            <h2>Subtítulo del Segundo  Artículo</h2>
           </hgroup>
           <time datetime="29-08-2024">Publicado el 29-08-2024</time>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid assumenda atque aut corporis debitis earum error explicabo, iusto necessitatibus obcaecati officia quidem quo quod reprehenderit sapiente soluta unde vitae?</p>
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NJGJqQwkejDPuwhtxbt7YNnrbe_pzQqdgA&s" alt="">
           <footer>
-              <p>Comentarios (0)</p>
+            <p>Comentarios (0)</p>
           </footer>
           <a href="http://google.com.ar"><address>Ir al Buscador</address> </a>
-      </article>
-        <aside>
-            <blockquote>Mensaje 1</blockquote>
-            <blockquote>Mensaje 2</blockquote>
+        </article>
+        <aside class="columna">
+          <blockquote>Mensaje 1</blockquote>
+          <blockquote>Mensaje 2</blockquote>
         </aside>
-    </section>
-    <footer>
+      </section>
+      <footer class="pie">
         <cite><small>Derechos Reservados 2023-2024</small></cite>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
